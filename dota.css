@@ -1,0 +1,120 @@
+body{
+    margin: 0px 240px;
+    background-color: slategray;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  .header {
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px 60px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header h1 {
+    font-size: 128px;
+    margin: 0px;
+  }
+  
+  .navbar {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
+  
+  .navbar li {
+    display: inline;
+    padding: 0px 32px;
+    font-style: bold;
+    font-size: 32px;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .heroes {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  
+  .heroes h2 {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    margin: 0;
+  }
+  
+  .intbox {
+    background-color: blue;
+  }
+  
+  .intbox h2 {
+    color: darkblue;
+    font-size: 32px;
+  }
+
+  .intbox-inner {
+    background-color: lightblue;
+  }
+
+  .intbox-inner img {
+    display: flex;
+    justify-content: center;
+    border: 3px solid lightskyblue;
+  }
+
+  .strbox {
+    background-color: red;
+  }
+  
+  .strbox h2 {
+    color: darkred;
+    font-size: 32px;
+  }
+
+  .strbox-inner {
+    background-color: pink;
+  }
+
+  .strbox-inner img {
+    display: flex;
+    justify-content: center;
+    border: 3px solid lightcoral;
+  }
+  
+  .agibox {
+    background-color: green;
+    
+  }
+  
+  .agibox h2 {
+    color: darkgreen;
+    font-size: 32px;
+  }
+
+  .agibox-inner {
+    background-color: lightgreen;
+  }
+
+  .agibox-inner img {
+    display: flex;
+    justify-content: center;
+    border: 3px solid greenyellow;
+  }
+  
+  .heroes-item {
+    padding: 12px;
+    margin: 0;
+  }
